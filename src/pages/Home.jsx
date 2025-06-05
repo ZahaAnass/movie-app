@@ -14,7 +14,7 @@ function Home(){
 
     const handleSearch = (e) => {
         e.preventDefault()
-        alert("Hello")
+        alert(searchQuery)
         setSearchQuery("")
     }
 
@@ -29,8 +29,8 @@ function Home(){
                 </button>
             </form>
             <div className="movies-grid">
-                {movies.map(movie => (
-                    <MovieCard movie={movie} key={movie.id}/>
+                {movies.map((movie) => (
+                    movie.title.toLocaleLowerCase().startsWith(searchQuery.toLocaleLowerCase()) && <MovieCard movie={movie} key={movie.id}/>
                 ))}
             </div>
         </div>
