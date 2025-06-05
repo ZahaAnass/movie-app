@@ -71,10 +71,6 @@ movie-app/
 - react-dom@19.1.0
 - react-router-dom@7.6.2
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - TMDB for providing the movie data API
