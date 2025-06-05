@@ -61,7 +61,7 @@ movie-app/
 
 ## Live Demo
 
-[View Live Demo]movie-app-gules-three-83.vercel.app
+[View Live Demo]https://movie-app-gules-three-83.vercel.app
 
 ## Usage
 
