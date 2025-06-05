@@ -59,6 +59,10 @@ movie-app/
 
 4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
+## Live Demo
+
+[View Live Demo]movie-app-gules-three-83.vercel.app
+
 ## Usage
 
 - Use the search bar to find movies by title
